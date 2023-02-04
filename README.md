@@ -6,5 +6,5 @@ Personal website running on:
 ![Redux](https://img.shields.io/badge/-Redux-fff?&logo=Redux&logoColor=purple)
 
 ## License
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+This project is open source and available under the [MIT License](https://github.com/ittid/ittiddev.io/blob/master/LICENSE).
 
