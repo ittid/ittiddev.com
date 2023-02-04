@@ -1,0 +1,68 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+/**
+ * Clear inner floats
+*/
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+/**
+ * Main content containers
+*/
+.container {
+  max-width: $content-width;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 0 2rem;
+  width: 100%; 
+}
+/**
+ * Hide text while making it readable for screen readers
+*/
+.hide-text {
+  overflow: hidden;
+  padding: 0; 
+  text-indent: 101%;
+  white-space: nowrap;
+}
+/**
+ * Hide element while making it readable for screen readers
+*/
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/**
+ * Add error border to input to show user that the information is not valide
+*/
+.error {
+  border: 2px solid $error !important;
+}
+/**
+ * Add shadow and background and transition on window Scroll Event
+*/
+.nav-scroll {
+  box-shadow: 1px 2px 18px rgb(0 0 0 / 10%);
+  .container {
+    height: $navbar-height-meduim !important;
+    transition: all .3s ease;
+    @include media("<=phone") {
+      height: $navbar-height-small !important;
+    }
+    @include media(">phone", "<=LGphone", "retina2x") {
+      height: $navbar-height-small !important;
+    }
+    @include media(">LGphone", "<=Small") {
+      height: $navbar-height-meduim !important;
+    }
+  }
+}

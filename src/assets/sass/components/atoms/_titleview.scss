@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Projects Title Bar Home Section.
+// -----------------------------------------------------------------------------
+.home {
+  h2.h2_title {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    div {
+      .title {
+        font-size: 2rem;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

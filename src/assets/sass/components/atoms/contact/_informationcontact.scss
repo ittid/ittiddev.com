@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the InformationContact page.
+// -----------------------------------------------------------------------------
+.contact {
+  .contact-information {
+    .info {
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        margin-right: 1rem;
+        color: $font-color-heading;
+      }
+      p {
+        margin-top: 0;
+        color: $font-color-base;
+        a {
+          color: $indigo;
+          text-decoration: none;
+          font-weight: bold;
+          &:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+          }
+        }
+      }
+    }
+  }
+}

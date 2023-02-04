@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ElivatorImage component.
+// -----------------------------------------------------------------------------
+.elivator_image {
+  grid-column: 9 / 13;
+  display: flex;
+  justify-content: end;
+  h2 {
+    text-align: center;
+  }
+  img.lead_img {
+    border-radius: 50%;
+    max-height: 225px;
+    width: 225px;
+    filter: grayscale(1);
+}
+}

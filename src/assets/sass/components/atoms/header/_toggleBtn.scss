@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ToggleBtn component.
+// -----------------------------------------------------------------------------
+.theme-toggle {
+  button.swtcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $button-background-color;
+    border: 1px solid $border-color;
+    padding: 1.25rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    &:hover {
+      border-color: $border-color-hover;
+    }
+    img {
+      max-height: 20px;
+      min-height: 20px;
+      min-width: 20px;
+    }
+  }
+}

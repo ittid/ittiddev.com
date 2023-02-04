@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Additional Link component.
+// -----------------------------------------------------------------------------
+.navigation {
+  li.link {
+    a {
+      padding: .5rem .75rem;
+      &:hover {
+        background-color: $link-hover-background-menu;
+        color: $link-hover-color-menu;
+      }
+    }
+  }
+}

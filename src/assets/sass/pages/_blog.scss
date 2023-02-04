@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Blog page.
+// -----------------------------------------------------------------------------
+.blog {
+  .container {
+    .blog-intro {
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 3rem;
+        color: $font-color-heading;
+      }
+      p {
+        color: $font-color-base;
+        a {
+          color: $indigo;
+          text-decoration: none;
+          font-weight: bold;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .blog-articles {
+      margin: 3rem 0;
+      .posts {
+        div {
+          &:last-of-type {
+            a {
+              border-bottom: none;
+            }
+          }
+          a {
+            background: transparent;
+            display: flex;
+            gap: 1rem;
+            padding: 0.4rem 0;
+            text-decoration: none;
+            color: $font-color-heading;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $border-color;
+            &:hover {
+              h3 {
+                text-decoration: underline;
+                text-decoration-thickness: 2px;
+              }
+            }
+            h3 {
+              margin: 0;
+              font-size: 1.1rem;
+              font-weight: 600;
+              color: $font-color-heading;
+            }
+          }
+          .date {
+            font-family: $font-family-monospace;
+            color: $post-time-color;
+            font-size: .8rem;  
+          }
+        }
+      }
+    }
+  }
+}

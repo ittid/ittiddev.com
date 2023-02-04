@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the About page.
+// -----------------------------------------------------------------------------
+.about {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    .me {
+      grid-column: 1 / 9;
+    }
+    .sidebar {
+      grid-column: 10 / 13;
+    }
+  }
+}

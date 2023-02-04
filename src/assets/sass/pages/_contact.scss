@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Contact page.
+// -----------------------------------------------------------------------------
+.contact {
+  .container {
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 3rem;
+      color: $font-color-heading;
+    }
+    .contact-section {
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1rem;
+      .contact-information {
+        grid-column: 1 / 7;
+      }
+      .contact-form {
+        grid-column: 7 / 13;
+      }
+    }
+  }
+}

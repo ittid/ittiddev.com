@@ -1,0 +1,93 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+//~~~~~~  Root App Based Variables ~~~~~~//
+$white-0: #fff;
+$gray-0: #f9f9f9;
+$gray-05: #f6f6f6;
+$gray-1: #eee;
+$gray-2: #e6e6e6;
+$gray-3: #ddd;
+$gray-4: #bbb;
+$gray-5: #999;
+$gray-6: #666;
+$gray-65: #555;
+$gray-7: #2c2c2c;
+$gray-8: #252525;
+$gray-9: #1f1f1f;
+$gray-10: #181818;
+$pink: #f57ad0;
+$indigo-muted: #f1f2fd;
+$indigo: #5a43f1;
+$error: #ff5721;
+$border-radius: 6px;
+$selection: #47a3f3;
+$selection-text: #fefefe;
+
+// Backgrounds Color
+$background-color: $gray-1;
+
+// Fonts familly
+$font-family-base: "Inter", -apple-system,BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "Menlo", "IBM Plex Mono", "Menlo", monospace, sans-serif;
+$font-family-nav: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+
+// Font Color
+$font-color-heading: $gray-8;
+$font-color-muted: $gray-6; // for small text <small> & for paragraphs
+$border-color: $gray-3; // for project area border
+$font-color-base: $gray-7;
+;
+// Anchors Color
+$marker: $pink;
+$link: $indigo;
+$link-hover-color: $indigo-muted;
+
+// Card (project) Color
+$card-background-color: $gray-0;
+$card-time-color: $gray-5;
+$button-background-color: $gray-05;
+
+// Selection Color
+$selection-background-color: $selection;
+$selection-link-color: $selection-text;
+
+// ScrollBar Color
+$scrollbar-color: $gray-3;
+$scrollbar-track: $gray-4;
+
+/* Media Query Screen Size */
+// Extra small devices (portrait phones, less than 576px)
+$max-width: 575.98px;
+// Small devices (landscape phones, 576px and up)
+$min-width-sm: 576px;
+// Medium devices (tablets, 768px and up)
+$min-width-md: 768px;
+// Large devices (desktops, 992px and up)
+$min-width-lg: 992px;
+// Extra large devices (large desktops, 1200px and up)
+$min-width-xl: 1200px;
+
+/* container (wrapper) */
+$content-width: 1160px;
+$content-width-small: 560px;
+$content-width-medium: 700px;
+
+// navbar height 
+$navbar-height-large: 160px;
+$navbar-height-meduim: 80px;
+$navbar-height-small: 60px;
+
+// Navbar Color
+$navbar-color: $gray-7;
+
+// border Col$
+$border-color: $gray-3;
+$border-color-hover: $gray-6;
+
+// Link Hover Menu
+$link-hover-background-menu: #fff8e2;
+$link-hover-color-menu: #f7b801;
+
+// Post Time color
+$post-time-color: $gray-6;

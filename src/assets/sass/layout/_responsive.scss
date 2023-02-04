@@ -1,0 +1,503 @@
+.navigation {
+  @include media("<=phone") {
+    border-bottom: 1px solid $border-color;
+    .container {
+      height: $navbar-height-small;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 0 1rem;
+        li {
+          grid-column: span 4;
+          a {
+            padding: 0;
+            padding-right: .3rem;
+            font-size: .9rem;
+            &:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+              text-decoration-color: $indigo;
+              background-color: transparent;
+              border-radius: none;
+            }
+          }
+        }
+        .link {
+          a {
+            padding: 0;
+            
+            &:hover {
+              text-decoration-color: $link-hover-color-menu;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    border-bottom: 1px solid $border-color;
+    .container {
+      height: $navbar-height-meduim;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 0 1.5rem;
+        li {
+          grid-column: span 4;
+          a {
+            padding: 0;
+            padding-right: .3rem;
+            font-size: .9rem;
+            &:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+              text-decoration-color: $indigo;
+              background-color: transparent;
+              border-radius: none;
+            }
+          }
+        }
+        .link {
+          a {
+            padding: 0;
+            
+            &:hover {
+              text-decoration-color: $link-hover-color-menu;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    border-bottom: 1px solid $border-color;
+    .container {
+      height: $navbar-height-meduim;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 0 1rem;
+        li {
+          grid-column: span 3;
+          a {
+            padding: 0;
+            padding-right: .3rem;
+            font-size: .9rem;
+            &:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+              text-decoration-color: $indigo;
+              background-color: transparent;
+              border-radius: none;
+            }
+          }
+        }
+        .link {
+          a {
+            padding: 0;
+            
+            &:hover {
+              text-decoration-color: $link-hover-color-menu;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include media(">Small", "<tablet") {
+    border-bottom: 1px solid $border-color;
+    .container {
+      height: $navbar-height-meduim;
+      ul {
+        li {
+          a {
+            font-size: .9rem;
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  @include media("<=phone") {
+    padding-top: 0;
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    padding-top: 0;
+  }
+  @include media(">LGphone", "<=Small") {
+    padding-top: 0;
+  }
+  @include media(">Small", "<tablet") {
+    padding-top: 0;
+  }
+}
+.home {
+  @include media("<=phone") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .lead {
+      .elevator {
+        grid-column: span 12;
+      }
+      .elivator_image {
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .skills {
+      .skills-preview {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .newsletter {
+      .form {
+        input {
+          width: 100%;
+          min-width: 0 !important;
+        }
+        .button {
+          width: 100%;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .lead {
+      .elevator {
+        grid-column: span 12;
+      }
+      .elivator_image {
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .skills {
+      .skills-preview {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .newsletter {
+      .form {
+        input {
+          width: 100%;
+          min-width: 0 !important;
+        }
+        .button {
+          width: 100%;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .lead {
+      .elevator {
+        grid-column: span 12;
+      }
+      .elivator_image {
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .skills {
+      .skills-preview {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .newsletter {
+      .form {
+        input {
+          width: 100%;
+          min-width: 0 !important;
+        }
+        .button {
+          width: 100%;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+  @include media(">Small", "<tablet") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .lead {
+      .elevator {
+        grid-column: span 12;
+        text-align: center;
+      }
+      .elivator_image {
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .skills {
+      .skills-preview {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .newsletter {
+      .form {
+        input {
+          width: 100%;
+          min-width: 0 !important;
+        }
+        .button {
+          width: 100%;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+  @include media(">=tablet", "<large") {
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+.about {
+  @include media("<=phone") {
+    .sidebar, .me {
+      grid-column: span 12 !important;
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    .sidebar, .me {
+      grid-column: span 12 !important;
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    .me {
+      grid-column: span 12 !important;
+    }
+    .sidebar {
+      display: grid;
+      grid-column: span 12 !important;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      justify-content: center;
+      align-items: baseline;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+  }
+  @include media(">Small", "<tablet") {
+    .me {
+      grid-column: span 12 !important;
+    }
+    .sidebar {
+      display: grid;
+      grid-column: span 12 !important;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      justify-content: center;
+      align-items: baseline;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+  }
+}
+.projects {
+  @include media("<=phone") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+  }
+  @include media(">LGphone", "<=Small") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+  }
+  @include media(">Small", "<tablet") {
+    h2.h2_title {
+      .title {
+        font-size: 1.7rem !important;
+      }
+    }
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  @include media(">=tablet", "<large") {
+    .projects_area {
+      .projects_cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+.blog {
+  @include media("<=phone") {
+    .date {
+      display: none;
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    .date {
+      display: none;
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    a {
+      gap: 0 !important; 
+      flex-direction: column;
+      align-items: baseline !important;
+    }
+  }
+}
+.contact {
+  @include media("<=phone") {
+    .contact-information {
+      grid-column: span 12 !important;
+    }
+    .contact-form  {
+      grid-column: span 12 !important;
+    }
+    .form {
+      input,
+      textarea {
+        min-width: auto !important;
+      }
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    .contact-information {
+      grid-column: span 12 !important;
+    }
+    .contact-form  {
+      grid-column: span 12 !important;
+    }
+    .form {
+      input,
+      textarea {
+        min-width: auto !important;
+      }
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    .contact-information {
+      grid-column: span 12 !important;
+    }
+    .contact-form  {
+      grid-column: span 12 !important;
+    }
+    .form {
+      input,
+      textarea {
+        min-width: auto !important;
+      }
+    }
+  }
+  @include media(">Small", "<tablet") {
+    .contact-information {
+      grid-column: span 12 !important;
+    }
+    .contact-form  {
+      grid-column: span 12 !important;
+    }
+    .form {
+      input,
+      textarea {
+        min-width: auto !important;
+      }
+    }
+  }
+}
+.view-post {
+  @include media("<=phone") {
+    pre, code {
+      overflow-wrap: break-word !important;
+    }
+  }
+  @include media(">phone", "<=LGphone", "retina2x") {
+    pre, code {
+      overflow-wrap: break-word !important;
+    }
+  }
+  @include media(">LGphone", "<=Small") {
+    pre, code {
+      overflow-wrap: break-word !important;
+    }
+  }
+  @include media(">Small", "<tablet") {
+    pre, code {
+      overflow-wrap: break-word !important;
+    }
+  }
+}

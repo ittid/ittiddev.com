@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.home {
+  .lead {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .projects_area, .newsletter, .skills {
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+  }
+}

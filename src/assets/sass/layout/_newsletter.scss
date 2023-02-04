@@ -1,0 +1,40 @@
+.newsletter {
+  p {
+    font-size: 1.05rem;
+    color: $font-color-base;
+    font-family: $font-family-base;
+    margin-top: 0;
+  }
+  .form {
+    .enter {
+      input.email {
+        font-family: $font-family-base;
+        background-color: $gray-05;
+        border: 1px solid $border-color;
+        padding: 1.05rem 1.25rem;
+        min-width: 350px;
+        outline: none;
+        border-radius: $border-radius;
+        &:focus, &:hover, &:active {
+          border-color: $indigo;
+        }
+      }
+    }
+    .error-msg {
+      font-weight: bold;
+      color: $error;
+    }
+    .submit {
+      margin-top: .4rem;
+      button.button {
+        border-radius: $border-radius;
+        color: $indigo;
+        background-color: $gray-05;
+        font-weight: bold;
+        &:hover {
+          border-color: $indigo;
+        }
+      }
+    }
+  }
+}

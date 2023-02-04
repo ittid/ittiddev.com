@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $background-color;
+  z-index: 999;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: $navbar-height-large;
+  }
+}

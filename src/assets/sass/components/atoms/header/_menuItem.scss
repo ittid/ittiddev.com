@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the MenuItem component.
+// -----------------------------------------------------------------------------
+.navigation {
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      padding: 1rem;
+      color: $navbar-color;
+      &:hover {
+        background-color: rgba(187,190,190,.2);
+        border-radius: 7px;
+      }
+    }
+  }
+}

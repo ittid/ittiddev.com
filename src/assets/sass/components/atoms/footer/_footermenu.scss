@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the FooterMenu component.
+// -----------------------------------------------------------------------------
+.footer {
+  nav {
+    ul.footer-menu {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-size: .9rem;
+          line-height: 1.2;
+          padding: 0 0.5rem;
+          color: $font-color-base;
+          &:hover {
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+          }
+        }
+      }
+    }
+  }
+}

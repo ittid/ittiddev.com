@@ -1,0 +1,22 @@
+.button {
+  align-items: center;
+  appearance: none;
+  background: $white-0;
+  border: 1px solid $border-color;
+  border-radius: 24px;
+  color: $font-color-base;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: $font-family-nav;
+  font-size: .95rem;
+  font-weight: 500;
+  gap: 0.25rem;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 0.75rem 1.2rem;
+  white-space: nowrap;
+  //height: 41.5px;
+  &:hover {
+    border-color: $border-color-hover;
+  }
+}

@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the ElivatorText component.
+// -----------------------------------------------------------------------------
+.elevator {
+  grid-column: 1 / 9;
+  h1 {
+    font-size: 3rem;
+    color: $font-color-heading;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+  }
+  .post_title {
+    margin: .7rem 0 1rem;
+    display: block;
+    color: $font-color-base;
+    font-size: 16px;
+    strong {
+      a {
+        color: $font-color-heading;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+          color: $indigo;
+        }
+      }
+    }
+  }
+  .description {
+    color: $font-color-base;
+    a.projets_link {
+      color: $indigo; 
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

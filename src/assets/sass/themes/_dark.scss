@@ -1,0 +1,335 @@
+// -----------------------------------------------------------------------------
+// This file contains everything related to the Dark Theme.
+// -----------------------------------------------------------------------------
+/*
+  === Dark Mode Varibles === 
+*/
+$background-color-dark: $gray-10;
+$font-color-base-dark: $gray-2;
+$dark-navbar-color: $gray-4;
+$font-color-base: $gray-2;
+$border-dark-color: $gray-7;
+$button-background-color-dark: $gray-8;
+$border-color-hover-dark: $gray-6;
+$card-background-color-dark: $gray-9;
+// Styles Form Dark Mode
+.dark-mode {
+  &::-webkit-scrollbar {
+    width: .5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $border-dark-color !important;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $gray-65 !important;
+  }
+  background-color: $background-color-dark !important;
+  .button {
+    border: 1px solid $border-dark-color !important;
+    background-color: $button-background-color-dark !important;
+    color: $font-color-base !important;
+    &:hover {
+      border-color: $border-color-hover-dark !important;
+    }
+  }
+  // Style All Heading 'h2' in All Pages
+  h2.h2_title {
+    color: $white-0 !important;
+  }
+  // === Sitcher Mode ===
+  .swtcher {
+    border: 1px solid $border-dark-color !important;
+    background-color: $button-background-color-dark !important;
+    &:hover {
+      border-color: $border-color-hover-dark !important;
+    }
+  }
+  /* End Default styles */
+  // === Navigation Page Style On Dark Mode ===
+  .navigation {
+    background-color: $background-color-dark !important;
+    a {
+      color: $dark-navbar-color !important;
+    }
+    .link {
+      a {
+        &:hover {
+          color: $pink !important;
+          background-color: rgba(187, 190, 190, 0.2) !important;
+        }
+      }
+      @include media("<=phone") {
+        a {
+          &:hover {
+            color: $pink !important;
+            background-color: transparent !important;
+            text-decoration-color: $pink !important;
+          }
+        }
+      }
+      @include media(">phone", "<=LGphone") {
+        a {
+          &:hover {
+            color: $pink !important;
+            background-color: transparent !important;
+            text-decoration-color: $pink !important;
+          }
+        }
+      }
+      @include media(">LGphone", "<=Small") {
+        a {
+          &:hover {
+            color: $pink !important;
+            background-color: transparent !important;
+            text-decoration-color: $pink !important;
+          }
+        }
+      }
+    }
+    @include media("<=phone") {
+      border-bottom: 1px solid $border-dark-color;
+      li {
+        a {
+          &:hover {
+            text-decoration-color: $pink !important;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    @include media(">phone", "<=LGphone", "retina2x") {
+      border-bottom: 1px solid $border-dark-color;
+      a {
+        &:hover {
+          color: $pink !important;
+          background-color: transparent !important;
+          text-decoration-color: $pink !important;
+        }
+      }
+    }
+    @include media(">LGphone", "<=Small") {
+      border-bottom: 1px solid $border-dark-color;
+      a {
+        &:hover {
+          color: $pink !important;
+          background-color: transparent !important;
+          text-decoration-color: $pink !important;
+        }
+      }
+    }
+    @include media(">Small", "<tablet") {
+      border-bottom: 1px solid $border-dark-color;
+    }
+  }
+  .nav-scroll {
+    border-bottom: 1px solid #2c2c2c7a !important;
+  }
+  // === Footer Page Style On Dark Mode ===
+  .footer {
+    background-color: $background-color-dark !important;
+    p,a {
+      color: $dark-navbar-color !important;
+    }
+    strong {
+      color: $pink;
+    }
+  }
+  // === Home Page Style On Dark Mode ===
+  .home {
+    .elevator {
+      h1 {
+        color: $white-0 !important;
+      }
+      small {
+        color:$font-color-base !important;
+        strong {
+          a {
+            color: $pink !important;
+          }
+        }
+      }
+      p {
+        color:$font-color-base !important;
+        a {
+          color: $pink !important;
+        }
+      }
+    }
+    .skills {
+      .skills-section {
+        border: 1px solid $border-dark-color !important;
+        h3 {
+          color: $white-0;
+        }
+        .atom-skill {
+          .button {
+            color: $pink !important;
+            border: 1px solid $border-dark-color !important;
+            &:hover {
+              border-color: $pink !important;
+            }
+          }
+        }
+      }
+    }
+    .projects_area {
+      .card {
+        border: 1px solid $border-dark-color !important;
+        background-color: $card-background-color-dark !important;
+        a {
+          color: $white-0 !important;
+        }
+        .date {
+          color: $pink !important;
+        }
+        .star {
+          a {
+            color: $link-hover-color-menu !important;
+          }
+        }
+      }
+    }
+    .newsletter {
+      p {
+        color: $font-color-base-dark !important;
+      }
+      input {
+        border: 1px solid $border-dark-color !important;
+        background-color: $card-background-color-dark !important;
+        &:hover, &:focus, &:active {
+          border-color: $pink !important;
+        }
+      }
+      button {
+        color: $pink !important;
+        &:hover {
+          border-color: $pink !important;
+        }
+      }
+    }
+  }
+  // === Projects Page Style On Dark Mode ===
+  .projects {
+    .projects_area {
+      .card {
+        border: 1px solid $border-dark-color !important;
+        background-color: $card-background-color-dark !important;
+        a {
+          color: $white-0 !important;
+        }
+        .date {
+          color: $pink !important;
+        }
+        .star {
+          a {
+            color: $link-hover-color-menu !important;
+          }
+        }
+      }
+    }
+  }
+  // === About Page Style On Dark Mode ===
+  .about {
+    h1,h2 {
+      color: $white-0 !important;
+    }
+    a, li::before {
+      color: $pink !important;
+    }
+    p {
+      color:$font-color-base !important;
+    }
+    .sidebar {
+      .card {
+        border: 1px solid $border-dark-color !important;
+        background-color: $card-background-color-dark !important;
+        h3 {
+          color: $white-0 !important;
+        }
+      }
+    }
+  }
+  // === Contact Page Style On Dark Mode ===
+  .contact {
+    h1 {
+      color: $white-0 !important;
+    }
+    a{
+      color: $pink !important;
+    }
+    p, h3 {
+      color:$font-color-base !important;
+    }
+    input,textarea {
+      border: 2px solid $border-dark-color !important;
+      background-color: $card-background-color-dark !important;
+      &:hover, &:focus, &:active {
+        border-color: $pink !important;
+      }
+    }
+    button {
+      color: $pink !important;
+      &:hover {
+        border:2px solid $pink !important;
+      }
+    }
+  }
+  // === Blog Page Style On Dark Mode ===
+  .blog {
+    h1 {
+      color: $white-0 !important;
+    }
+    p {
+      color:$font-color-base !important;
+      a{
+        color: $pink !important;
+      }
+    }
+    .posts {
+      a {
+        border-color: $border-dark-color !important;
+        h3 {
+          color: $white-0 !important;
+        }
+        .date {
+          color: $link-hover-color-menu !important;
+        }
+      }
+    }
+  }
+  // === Post View Page Style On Dark Mode ===
+  .view-post {
+    .content {
+      header {
+        h1 {
+          color: $white-0 !important;
+        }
+        .date-post {
+          color: $link-hover-color-menu !important;
+        }
+      }
+      article {
+        p {
+          color:$font-color-base !important;
+          a{
+            color: $pink !important;
+            &:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+            }
+          }
+        }
+        h1, h2, h3, h4, h5, h6 {
+          color: $white-0 !important;
+        }
+        pre,code {
+          border: 1px solid $border-dark-color !important;
+          background-color: $card-background-color-dark !important;
+          color:$font-color-base !important;
+          border-radius: $border-radius;
+          padding: .7rem;
+        }
+      }
+    }
+  }
+}

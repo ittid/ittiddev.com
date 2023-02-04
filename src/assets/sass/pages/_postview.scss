@@ -1,0 +1,68 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Poqt View page.
+// -----------------------------------------------------------------------------
+.view-post {
+  .container {
+    .content {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+      margin-bottom: 3em;
+      padding-top: 2rem;
+      header {
+        grid-column: 2/11;
+        h1.title-post {
+          margin-top: 0;
+          margin-bottom: 1.5rem;
+          font-size: 3rem;
+          color: $font-color-heading;
+          overflow-wrap: break-word !important;
+        }
+        .date-post {
+          font-family: $font-family-monospace;
+          color: $post-time-color;
+          font-size: 1rem;
+          span {
+            margin-left: .5rem;
+          }
+        }
+      }
+      article {
+        grid-column: 2/12;
+        p {
+          color: $font-color-base;
+          a {
+            color: $indigo;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+            }
+          }
+        }
+        figure {
+          margin: 0;
+          img {
+            max-width: 100%;
+          }
+          figcaption {
+            text-align: center;
+            color: $post-time-color;
+            white-space: break-spaces;
+          }
+        }
+        h1, h2, h3, h4, h5, h6 {
+          color: $font-color-heading !important;
+        }
+        pre,code {
+          background-color: $card-background-color;
+          border: 1px solid $border-color;
+          border-radius: $border-radius;
+          padding: .7rem;
+          white-space: break-spaces;
+          overflow-wrap: break-word;
+        }
+      }
+    }
+  }
+}

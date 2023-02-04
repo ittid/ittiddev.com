@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the ContactForm page.
+// -----------------------------------------------------------------------------
+.contact {
+  .contact-form {
+    .form {
+      .label {
+        margin-bottom: 1rem;
+        input, textarea {
+          font-family: $font-family-base;
+          background-color: $gray-05;
+          border: 2px solid $border-color;
+          padding: 1.05rem 1.25rem;
+          min-width: 350px;
+          outline: none;
+          border-radius: $border-radius;
+          width: 100%;
+          &:focus, &:hover, &:active {
+            border-color: $indigo;
+            border-width: 2px;
+          }
+        }
+        .box-msg {
+          font-weight: bold;
+          color: $error;
+          
+        }
+      }
+      .send {
+        button.button {
+          border-radius: $border-radius;
+          color: $indigo;
+          background-color: $gray-05;
+          font-weight: bold;
+          width: 100%;
+          justify-content: center;
+          border-width: 2px;
+          padding: 1.05rem 1.25rem;
+          &:hover {
+            border-color: $indigo;
+          }
+        }
+      }
+    }
+  }
+}

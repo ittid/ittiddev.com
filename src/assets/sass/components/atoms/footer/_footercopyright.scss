@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Footer Copyright component.
+// -----------------------------------------------------------------------------
+.footer {
+  .footer-copy {
+    font-size: .9rem;
+    line-height: 1.2;
+    padding: 0 0.5rem;
+    color: $font-color-base;
+    font-weight: 400;
+    display: flex;
+    strong {
+      color: $indigo;
+      padding: 0 0 0 0.3rem;
+    }
+  }
+}

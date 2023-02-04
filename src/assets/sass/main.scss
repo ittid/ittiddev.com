@@ -1,0 +1,69 @@
+@charset "UTF-8";
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/breakpoints.scss',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/aboutsidebar',
+  'layout/skills',
+  'layout/newsletter',
+  'layout/footer',
+  /* The Responsive Style For the Hool Reacgt App */
+  'layout/responsive';
+
+// 5. Components
+@import
+  // static compponent
+  "components/static/button",
+  'components/atoms/titleview',
+  // atoms componets
+  //---> Header
+  'components/atoms/header/additionalLink',
+  'components/atoms/header/menuItem',
+  'components/atoms/header/nameLogo',
+  'components/atoms/header/toggleBtn',
+  //---> Footer
+  "components/atoms/footer/footermenu",
+  "components/atoms/footer/footercopyright",
+  //---> Lead on Home Page
+  'components/atoms/lead/elivatorText',
+  'components/atoms/lead/elivatorImage',
+  //---> About Text Styles
+  'components/atoms/abouttext',
+  //---> Contact
+  'components/atoms/contact/informationcontact',
+  'components/atoms/contact/contactform',
+  // molecules comp styles
+  'components/molecules/logo',
+  'components/molecules/projectsHome',
+  'components/molecules/menu';
+
+// 6. Page-specific styles
+@import
+  'pages/projects',
+  'pages/about',
+  'pages/error',
+  'pages/contact',
+  'pages/blog',
+  'pages/postview',
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/dark';
