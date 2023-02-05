@@ -20,7 +20,7 @@ function About() {
               />
               <InformationContact
                 name="Phone :"
-                details="+212 0646698254"
+                details="+212 "
                 href="tel:"
               />
             </div>
