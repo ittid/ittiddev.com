@@ -20,7 +20,7 @@ function About() {
               />
               <InformationContact
                 name="Phone :"
-                details="+212 "
+                details="sooon!!"
                 href="tel:"
               />
             </div>
