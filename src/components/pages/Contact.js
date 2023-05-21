@@ -25,7 +25,7 @@ function About() {
               />
               <InformationContact
                 name="Facebook :"
-                details="Facebook"
+                details=""
                 href="https://www.facebook.com/aHnaineAbdou"
               />
             </div>
