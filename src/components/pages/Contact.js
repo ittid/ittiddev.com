@@ -20,8 +20,13 @@ function About() {
               />
               <InformationContact
                 name="Phone :"
-                details="sooon!!"
+                details="06*********"
                 href="tel:"
+              />
+              <InformationContact
+                name="Facebook :"
+                details="Facebook"
+                href="https://www.facebook.com/aHnaineAbdou"
               />
             </div>
             <div className="contact-form ">
