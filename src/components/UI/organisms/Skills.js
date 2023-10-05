@@ -7,7 +7,7 @@ function Skills() {
       <div className="skills-preview">
         <SkillsMolecules
           title="JavaScript"
-          skills={["JavaScript", "React", "Vue", "Redux", "Jest", "AJAX"]}
+          skills={["JavaScript", "TypeScript", "React", "Vue.js", "Redux", "Jest"]}
         />
         <SkillsMolecules
           title="Front-End"
@@ -16,15 +16,13 @@ function Skills() {
             "CSS3",
             "Sass",
             "Pug.js",
-            "Gulp.js",
-            "jQuery",
             "Bootstrap",
           ]}
         />
-        <SkillsMolecules title="Back-End" skills={["Node.js"]} />
+        <SkillsMolecules title="Back-End" skills={["Node.js", "Express.js", "mongodb"]} />
         <SkillsMolecules
           title="Tools"
-          skills={["Git & GitHub", "Firebase"]}
+          skills={["Git & GitHub", "Gulp.js",]}
         />
       </div>
     </>
