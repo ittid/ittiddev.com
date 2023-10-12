@@ -18,11 +18,6 @@ function About() {
                 details="ahnaine3bd@gmail.com"
                 href="mailto:"
               />
-/*               <InformationContact
-                name="Phone :"
-                details="*********"
-                href="tel:"
-              /> */
             </div>
             <div className="contact-form ">
               <ContactForm />
