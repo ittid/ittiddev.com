@@ -17,9 +17,10 @@ function Skills() {
             "Sass",
             "Pug.js",
             "Bootstrap",
+            "tailwindcss"
           ]}
         />
-        <SkillsMolecules title="Back-End" skills={["Node.js", "Express.js", "mongodb"]} />
+        <SkillsMolecules title="Back-End" skills={["Node.js", "Express.js", "mongodb", "mongoose"]} />
         <SkillsMolecules
           title="Tools"
           skills={["Git & GitHub", "Gulp.js",]}
