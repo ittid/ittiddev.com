@@ -4,22 +4,17 @@ function FooterMenu() {
       <nav>
         <ul className="footer-menu">
           <li>
-            <a href="https://www.patreon.com/" target="_blank" rel="noreferrer">
-              Patreon
-            </a>
-          </li>
-          <li>
             <a href="https://github.com/ittid" target="_blank" rel="noreferrer">
-              GitHub
+              github
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/ahnaine-dev/"
+              href="https://www.linkedin.com/in/abdessamadahnaine/"
               target="_blank"
               rel="noreferrer"
             >
-              Linkedin
+              linkedin
             </a>
           </li>
           <li>
@@ -28,7 +23,7 @@ function FooterMenu() {
               target="_blank"
               rel="noreferrer"
             >
-              RSS
+              rss
             </a>
           </li>
         </ul>
