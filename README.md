@@ -1,4 +1,4 @@
-## ittiddev.com 
+## ittiddev.com
 Personal website running on:
 
 ![React](https://img.shields.io/badge/-React-fff?&logo=react&logoColor=blue)
